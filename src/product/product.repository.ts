@@ -32,4 +32,9 @@ export class ProductRepository extends Repository<Product> {
 
     return editedProduct;
   }
+
+  // public async deleteProduct(
+  //   productDto: Product,
+  // ): Promise<Product> {
+  // }
 }
